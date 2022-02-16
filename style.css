@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap');*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+html,
+body{
+    height: 100%;
+}
+
+h1{
+    font-size: 46px;
+    font-weight: 600;
+    text-align: center;
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(36, 33, 33) ;
+    background-color: #eaeaea;
+}
+
+.btnWarna{
+    text-align: center;
+}
+
+button{
+    padding: 7px 15px;
+    background-color: gray;
+    color: white;
+    border: 2px white;
+    border-radius: 5px;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.biru-muda{
+    background-color: brown;
+}
+
+.white-text{
+    color: white;
+    background-color: red;
+}
+
+/* kotak slider */
+.kotak-merah,
+.kotak-ijo,
+.kotak-biru{
+    width: 35px;
+    height: 35px;
+    margin: 10px auto;
+    border: 2px solid white;
+}
+
+.kotak-merah{
+    background-color: red;
+}
+
+.kotak-ijo{
+    background-color: green;
+}
+
+.kotak-biru{
+    background-color: blue;
+}
+
+/* Responsive */
+@media(max-width: 980px){
+    h1{
+        font-size: 24px;
+        width: 80%;
+    }
+}
+
